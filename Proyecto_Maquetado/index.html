@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagine Dragons - Página Oficial</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="imagenes/favicon.png">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>IMAGINE DRAGONS</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Inicio</a></li>
+                    <li><a href="giras.html">Giras & Premios</a></li>
+                    <li><a href="integrantes.html">Integrantes</a></li>
+                    <li><a href="discografia.html">Discografía</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Bienvenidos al mundo de</h2>
+                <h1>IMAGINE DRAGONS</h1>
+                <p>La banda que ha revolucionado el rock alternativo con su sonido único y energético</p>
+                <div class="hero-buttons">
+                    <a href="discografia.html" class="btn btn-primary">Escucha su música</a>
+                    <a href="giras.html" class="btn btn-secondary">Ver giras</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="imagenes/Concierto.jpg">
+            </div>
+        </section>
+
+        <section class="quick-nav">
+            <div class="container">
+                <h2>Explora</h2>
+                <div class="nav-cards">
+                    <div class="nav-card">
+                        <div class="card-icon">🎤</div>
+                        <h3>Integrantes</h3>
+                        <p>Conoce a los miembros de la banda</p>
+                        <a href="integrantes.html" class="card-link">Ver más</a>
+                    </div>
+                    <div class="nav-card">
+                        <div class="card-icon">🎵</div>
+                        <h3>Discografía</h3>
+                        <p>Todos sus álbumes y canciones</p>
+                        <a href="discografia.html" class="card-link">Ver más</a>
+                    </div>
+                    <div class="nav-card">
+                        <div class="card-icon">🏆</div>
+                        <h3>Giras & Premios</h3>
+                        <p>Conciertos y reconocimientos</p>
+                        <a href="giras.html" class="card-link">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="latest-news">
+            <div class="container">
+                <h2>Últimas Noticias</h2>
+                <div class="news-grid">
+                    <article class="news-item">
+                        <img src="imagenes/album.webp">
+                        <div class="news-content">
+                            <h3>Nuevo Álbum 2024</h3>
+                            <p>La banda anuncia su próximo trabajo discográfico con sonidos renovados.</p>
+                        </div>
+                    </article>
+                    <article class="news-item">
+                        <img src="imagenes/gira.png">
+                        <div class="news-content">
+                            <h3>Gira Mundial</h3>
+                            <p>Fechas confirmadas para la nueva gira que recorrerá 5 continentes.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Imagine Dragons</h3>
+                    <p>La banda que ha revolucionado el rock alternativo con su sonido único y energético desde 2008.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">📷</a>
+                        <a href="#" class="social-link">🎵</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Navegación</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="giras.html">Giras & Premios</a></li>
+                        <li><a href="integrantes.html">Integrantes</a></li>
+                        <li><a href="discografia.html">Discografía</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Música</h3>
+                    <ul>
+                        <li><a href="#">Spotify</a></li>
+                        <li><a href="#">Apple Music</a></li>
+                        <li><a href="#">YouTube Music</a></li>
+                        <li><a href="#">Amazon Music</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>📧 info@imaginedragonsfan.com</p>
+                    <p>📱 +1 (555) 123-4567</p>
+                    <p>📍 Las Vegas, Nevada</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Imagine Dragons Fan Site. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
